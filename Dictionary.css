@@ -157,3 +157,18 @@ input:focus{
 .hidden{
     display: none;
 }
+
+@media (max-width: 630px){
+    .main{
+        width: 85%;
+        padding: 50px 38px 25px;
+    }
+}
+
+
+@media (max-width: 425px){
+    .main{
+        width: 95%;
+        padding: 40px 25px 20px;
+    }
+}
